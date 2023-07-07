@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-size: 118.2%;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  @media screen and (min-width: 800px){
+    body{
+      font-size: 135%;
+    }
+  }

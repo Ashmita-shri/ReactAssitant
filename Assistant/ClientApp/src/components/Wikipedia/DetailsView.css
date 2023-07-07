@@ -1,0 +1,32 @@
+a:hover{
+    color: green;
+}
+
+.details-section{
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    width: 100%;
+    padding: 0 auto;
+    margin: "0.9rem 0   "
+}
+
+.searchNote{
+    margin: 0.8rem 0;
+    text-align: center;
+    color: #696969;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 724px){
+    .details-section{
+        margin-top: 0.5rem;
+    }
+
+}
+
+
+@media screen and (min-width: 360px){
+   .details-section{
+       width: 100%;
+   }
+}
+
